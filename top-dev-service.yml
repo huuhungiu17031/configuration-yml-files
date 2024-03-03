@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "top-dev-service"
+extends:
+  file: common-config.yml
+  service: common-congig-service
